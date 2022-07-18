@@ -1,0 +1,8 @@
+/node-modules
+
+
+
+#ignores the build files because these are only needed in development
+/build
+
+.DS_Store
