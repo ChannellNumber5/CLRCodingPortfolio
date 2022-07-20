@@ -1,8 +1,10 @@
 /node-modules
-
-
+#to ignore cache, so that it is not stored in your repository
+/.pnp
+.pnp.js
 
 #ignores the build files because these are only needed in development
 /build
 
 .DS_Store
+node_modules

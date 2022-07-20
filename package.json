@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "name": "clrcodingportfolio",
+  "description": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChannellNumber5/CLRCodingPortfolio.git"
+  },
+  "author": "Christina Robinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChannellNumber5/CLRCodingPortfolio/issues"
+  },
+  "homepage": "https://github.com/ChannellNumber5/CLRCodingPortfolio#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
