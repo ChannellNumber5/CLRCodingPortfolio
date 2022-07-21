@@ -1,0 +1,20 @@
+{
+    "short_name": "React Portfolio",
+    "name": "CLRCoding React Portfolio",
+    "icons": [
+        {
+            "src": "CLRLogo",
+            "sizes": "64x64 32x32 24x24 16x16 192x192 512x512",
+            "type": "image/JPG"
+        },
+        {
+            "src": "CR-WeatherDashboardScreenShot.png",
+            "sizes": "64x64 32x32 24x24 16x16 192x192 512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#008080",
+    "background_color":"#696969"
+}
