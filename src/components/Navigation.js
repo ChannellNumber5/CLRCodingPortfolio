@@ -1,12 +1,15 @@
 import React, {useState} from 'react';
 
-function Navigation() {
+function Navigation(props) {
+    const handleViewChange = props.handleViewChange;
+    // const currentView = props.currentView; not sure if we'll use this
+
     return (
         <div>
             {/* copies in navigation code from portfolio already created https://github.com/ChannellNumber5/CRobinsonPortfolio */}
-                   <nav className="navbar" role="navigation" aria-label="main navigation">
+                   {/* <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <a role="button" class="navbar-burger" data-target='navMenu' aria-label="menu" aria-expanded="false">
+                <a role="button" className="navbar-burger" data-target='navMenu' aria-label="menu" aria-expanded="false">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -15,12 +18,11 @@ function Navigation() {
             
             <div id="navMenu" className="navbar-menu">
                 <div className="navbar-start">   
-                </div>
+                </div> */}
                 <div className="navbar-end">
-                    <a className="navbar-item" href="">Home</a>
-                    <a className="navbar-item" href="">About Me</a>
-                    <a className="navbar-item" href=""> Projects</a>
-                    <a className="navbar-item" href="">Contact Me</a>
+                    <a className="navbar-item" href="" onClick={() => handleViewChange('Home')}>Home</a>
+                    <a className="navbar-item" href="" onClick={() => handleViewChange('Projects')}> Projects</a>
+                    <a className="navbar-item" href="" onClick={() => handleViewChange('Contact')}>Contact Me</a>
                 </div>
             </div>
 
