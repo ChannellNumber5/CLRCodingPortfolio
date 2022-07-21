@@ -10,7 +10,10 @@ function App() {
             <Navigation />
             <Header />
             <Project />
+            <Contact />
             <Footer />
         </div>
-    )
+    );
 }
+
+export default App;
