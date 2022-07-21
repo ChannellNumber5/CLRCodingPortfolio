@@ -20,9 +20,9 @@ function Navigation(props) {
                 <div className="navbar-start">   
                 </div> */}
                 <div className="navbar-end">
-                    <a className="navbar-item" href="" onClick={() => handleViewChange('Home')}>Home</a>
-                    <a className="navbar-item" href="" onClick={() => handleViewChange('Projects')}> Projects</a>
-                    <a className="navbar-item" href="" onClick={() => handleViewChange('Contact')}>Contact Me</a>
+                    <a className="navbar-item" href="#aboutme" onClick={() => handleViewChange('Home')}>Home</a>
+                    <a className="navbar-item" href="#projects" onClick={() => handleViewChange('Projects')}> Projects</a>
+                    <a className="navbar-item" href="#contact" onClick={() => handleViewChange('Contact')}>Contact Me</a>
                 </div>
             </div>
 
