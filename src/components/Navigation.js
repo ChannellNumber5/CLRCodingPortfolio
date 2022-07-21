@@ -26,8 +26,8 @@ function Navigation(props) {
                 </div>
             </div>
 
-        </nav> 
-        </div>
+        // </nav> 
+        // </div>
     );
 }
 
