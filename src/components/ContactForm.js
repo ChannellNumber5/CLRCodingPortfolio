@@ -19,6 +19,10 @@ function ContactForm() {
                 <input type="text" className="userContactInfo" id="userEmailAddress" placeholder="Enter your Email Address"  name="userEmailAddress"></input>
             </p>
             <p>
+                <label for="userMessage">Message:</label>
+                <input type="text" className="userContactInfo" id="userMessage" placeholder="Enter any thoughts/questions!"  name="userEmailAddress"></input>
+            </p>
+            <p>
                 <input type="submit" value="Submit"></input>
             </p>
             </form>
