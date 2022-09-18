@@ -1,11 +1,16 @@
 import React from 'react';
+import Image from '../atoms/Image';
+import logo from '../images/CLRLogo.JPG';
 
 function Header() {
     return (
         <div>
-            {/* copies in navigation code from portfolio already created https://github.com/ChannellNumber5/CRobinsonPortfolio */}
-            {/* <img src="./public/CLRLogo.png" alt="Portfolio-Logo"></img> */}
-            <h1>Christina <span id="elle">l </span>. Robinson | Web Developer</h1>
+            <div id="image">
+                <Image image={logo}/>
+            </div>
+            <div id="titleHeader">
+                <h1>Christina <span id="elle">l </span>. Robinson | Web Developer</h1>
+            </div>
         </div>
     );
 }
