@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from '../atoms/Image';
-const profilePhoto = '../images/ProfileIcon.jpg';
+import profileImg from '../images/ProfileIcon.jpg';
 
 function AboutMe() {
     return (
         <div>
             <div id="developerPhotoEl">
-                <Image profilePhoto={profilePhoto}/>
+                <Image image={profileImg}/>
             </div>
             <div id="aboutMeText">
                 <h3>Just a little about me!</h3>

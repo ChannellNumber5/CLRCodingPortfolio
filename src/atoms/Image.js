@@ -1,10 +1,9 @@
 import React from 'react';
 
 function Image(props) {
+    console.log(props);
     return (
-        <div>
-            <img src={props.profilePhoto}></img>
-        </div>
+        <img src={props.image} alt="image"></img>
     );
 }
 
