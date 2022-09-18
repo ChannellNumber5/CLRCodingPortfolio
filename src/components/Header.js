@@ -3,7 +3,7 @@ import Image from '../atoms/Image';
 import logo from '../images/CLRLogo.JPG';
 
 const headerStyle = {
-    backgroundColor:"#0C926B",
+    backgroundColor:"#0C928C",
     display:"flex",
     flexDirection:"row",
     border:"solid 2px black",
@@ -12,6 +12,7 @@ const headerStyle = {
 
 const imageStyle = {
     border:"solid 2px black",
+    radius: "5%",
     maxWidth: "20%",
 }
 
