@@ -1,10 +1,12 @@
 import React from 'react';
+import Image from '../atoms/Image';
+import profilePhoto from '../images/';
 
 function AboutMe() {
     return (
         <div>
             <div id="developerPhotoEl">
-                <img src="">Developer Photo</img>
+                <Image profilePhoto/>
             </div>
             <div id="aboutMeText">
                 <h3>Just a little about me!</h3>
