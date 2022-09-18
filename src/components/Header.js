@@ -2,14 +2,29 @@ import React from 'react';
 import Image from '../atoms/Image';
 import logo from '../images/CLRLogo.JPG';
 
+const headerStyle = {
+    backgroundColor:"#0C926B",
+    display:"flex",
+    flexDirection:"row",
+    border:"solid 2px black",
+    borderRadius: "5%",
+};
+
+const imageStyle = {
+    border:"solid 2px black",
+    maxWidth: "20%",
+}
+
+const titleStyle = {
+    maxWidth: "80%",
+}
+
 function Header() {
     return (
-        <div>
-            <div id="image">
-                <Image image={logo}/>
-            </div>
+        <div style={headerStyle}>
+            <Image style={imageStyle} image={logo}/>
             <div id="titleHeader">
-                <h1>Christina <span id="elle">l </span>. Robinson | Web Developer</h1>
+                <h1 style = {titleStyle}>Christina <span id="elle">l </span>. Robinson | Web Developer</h1>
             </div>
         </div>
     );

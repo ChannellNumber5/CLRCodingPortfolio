@@ -43,4 +43,4 @@ If you have additional questions you contact via GitHub at [ChannellNumber5](htt
     -Good site for Hexadecimal codes for colors
 -[Mailto links](https://css-tricks.com/snippets/html/mailto-links/)
 -[Styling React Components](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
--[]()
+-[Styling React Components](https://thewebdev.info/2022/02/19/how-to-make-items-display-inline-in-react-native/#:~:text=To%20make%20items%20display%20inline%20in%20React%20Native%2C%20we%20can,set%20flexDirection%20to%20'row'%20.&text=to%20set%20the%20outer%20view's,the%20width%20of%20the%20screen.)
