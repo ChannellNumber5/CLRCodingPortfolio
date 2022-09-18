@@ -42,4 +42,5 @@ If you have additional questions you contact via GitHub at [ChannellNumber5](htt
 -[ColorHexa](https://www.colorhexa.com/696969)
     -Good site for Hexadecimal codes for colors
 -[Mailto links](https://css-tricks.com/snippets/html/mailto-links/)
+-[Styling React Components](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
 -[]()
